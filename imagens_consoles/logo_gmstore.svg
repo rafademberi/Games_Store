@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Game Store</title>
+  <desc id="desc">Logo retrô para Game Store: gabinete de arcade estilizado em um selo circular coral e creme com detalhes pixelados.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF765E"/><stop offset="1" stop-color="#F04467"/>
+    </linearGradient>
+    <clipPath id="disc"><circle cx="600" cy="250" r="184"/></clipPath>
+  </defs>
+  <!-- Retro sun disc -->
+  <circle cx="600" cy="250" r="208" fill="#231D2B"/>
+  <circle cx="600" cy="250" r="190" fill="url(#sunset)"/>
+  <g clip-path="url(#disc)" fill="#FFC45E">
+    <path d="M390 288h420v20H390zM400 327h400v15H400zM417 359h366v12H417z"/>
+  </g>
+  <!-- Arcade cabinet, newly drawn silhouette -->
+  <path d="M490 119h220l26 54v196H464V173z" fill="#FFF1D6" stroke="#231D2B" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M490 119h220l14 29H476z" fill="#231D2B"/>
+  <path d="M489 169h222v112H489z" fill="#382E4B" stroke="#231D2B" stroke-width="10"/>
+  <path d="M510 190h180v70H510z" fill="#FFC45E"/>
+  <path d="M522 212h18v18h-18zm27-18h18v18h-18zm27 18h18v18h-18zm27-18h18v18h-18zm27 18h18v18h-18zm27-18h18v18h-18zm27 18h18v18h-18z" fill="#F04467"/>
+  <path d="M510 299h180v39H510z" fill="#231D2B"/>
+  <circle cx="628" cy="318" r="10" fill="#FF765E"/><circle cx="659" cy="318" r="10" fill="#79C8A5"/>
+  <!-- Joystick and buttons -->
+  <path d="M535 320v-23" stroke="#FFF1D6" stroke-width="7" stroke-linecap="round"/><circle cx="535" cy="291" r="10" fill="#79C8A5"/>
+  <path d="M500 369h200" stroke="#231D2B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M530 369l-22 48h184l-22-48" fill="#FFF1D6" stroke="#231D2B" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M548 389h105" stroke="#F04467" stroke-width="9" stroke-linecap="round"/>
+  <!-- Pixel sparks around the cabinet -->
+  <g fill="#231D2B"><path d="M365 218h18v18h-18zm18-18h18v18h-18zm18-18h18v18h-18z"/><path d="M801 214h18v18h-18zm18 18h18v18h-18zm18 18h18v18h-18z"/><path d="M404 367h16v16h-16zm16 16h16v16h-16z"/><path d="M780 360h16v16h-16zm-16 16h16v16h-16z"/></g>
+  <!-- Wordmark: warm, chunky arcade typography -->
+  <text x="600" y="535" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="2" fill="#231D2B">GAME</text>
+  <path d="M380 556h440" stroke="#231D2B" stroke-width="8" stroke-linecap="round"/>
+  <rect x="421" y="549" width="54" height="15" rx="7" fill="#F04467"/>
+  <rect x="725" y="549" width="54" height="15" rx="7" fill="#F04467"/>
+  <text x="600" y="632" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="61" font-weight="900" letter-spacing="16" fill="#F04467">STORE</text>
+  <!-- tiny 8-bit accent -->
+  <path d="M857 579h14v14h-14zm14-14h14v14h-14zm14-14h14v14h-14z" fill="#79C8A5"/>
+  <path d="M301 579h14v14h-14zm-14-14h14v14h-14zm-14-14h14v14h-14z" fill="#79C8A5"/>
+</svg>
