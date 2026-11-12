@@ -1,2 +1,3 @@
 # Games_Store
-Just the front-end portion of a games and consoles store.
+*Hi*
+A simple project I created, focusing solely on the front-end of a website for selling games and electronic accessories. The purchase buttons are not functional.
